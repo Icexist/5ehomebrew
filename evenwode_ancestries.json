@@ -1,0 +1,995 @@
+{
+    "_meta": {
+        "sources": [
+            {
+                "json": "SolaceofEvenwode",
+                "abbreviation": "SoE",
+                "full": "Solace of Evenwode",
+                "authors": [
+                    "thatonerlytallguy"
+                ],
+                "convertedBy": [
+                    "thatonerlytallguy"
+                ],
+                "version": "1.0.0"
+            }
+        ],
+        "dateAdded": 1693671555,
+        "dateLastModified": 1693671599
+    },
+    "race": [
+        {
+            "name": "Vole",
+            "source": "SolaceofEvenwode",
+            "creatureTypes": [
+                "humanoid"
+            ],
+            "size": [
+                "S"
+            ],
+            "hasFluff": false,
+            "hasFluffImages": false,
+            "speed": {
+                "walk": 30
+            },
+            "heightAndWeight": null,
+            "age": {
+                "mature": 10,
+                "max": 50
+            },
+            "languageProficiencies": [
+                {
+                    "common": true,
+                    "choose": {
+                        "count": 1
+                    }
+                }
+            ],
+            "ability": [
+                {
+                    "int": 2,
+                    "choose": {
+                        "from": [
+                            "str",
+                            "dex",
+                            "con",
+                            "wis",
+                            "cha"
+                        ],
+                        "count": 1
+                    }
+                }
+            ],
+            "darkvision": 60,
+            "entries": [
+                {
+                    "name": "Languages",
+                    "entries": [
+                        "You can speak, read and write Common and one additional language of your choice."
+                    ],
+                    "type": "entries"
+                },
+                {
+                    "name": "Too Clever",
+                    "type": "entries",
+                    "entries": [
+                        "You delight in creating puzzles and traps. You are proficient in either Thieves' or Tinker's tools. You have advantage on an Intelligence or Dexterity checks when setting traps or creating puzzles or riddles."
+                    ]
+                },
+                {
+                    "name": "Tricksy",
+                    "type": "entries",
+                    "entries": [
+                        "You can cast snare with this trait. Starting at 3rd level, you can cast knock with it, and starting at 5th level, you can also cast nondetection with it.", 
+                        "Once you cast a spell with this trait, you can't cast the same spell with it again until you finish a long rest. Intelligence is your spellcasting ability for these spells."
+                    ]
+                },
+                {
+                    "name": "Naturally Stealthy",
+                    "type": "entries",
+                    "entries": [
+                        "You can attempt to hide even when you are obscured only by a creature that is at least one size larger than you."
+                    ]
+                }
+            ],
+            "toolProficiencies": [
+                {
+                    "choose": {
+                        "from": [
+                            "thieves' tools",
+                            "tinker's tools"
+                        ],
+                        "count": 1
+                    }
+                }
+            ],
+            "additionalSpells": [
+                {
+                    "innate": {
+                        "1": {
+                            "daily": {
+                                "1":[
+                                    "snare"
+                                ]
+                            }
+                        },
+                        "3": {
+                            "daily": {
+                                "1": [
+                                    "knock"
+                                ]
+                            }
+                        },
+                        "5": {
+                            "daily": {
+                                "1": [
+                                    "nondetection"
+                                ]
+                            }
+                        }
+                    },
+                    "ability": "int"
+                }
+            ]
+            
+        },
+        {
+            "name": "Hedgehog",
+            "source": "SolaceofEvenwode",
+            "creatureTypes": [
+                "humanoid"
+            ],
+            "traitTags": [
+                "Natural Armor"
+            ],
+            "ability": [
+                {
+                    "str": 2,
+                    "choose": {
+                        "from": [
+                            "cha", 
+                            "con",
+                            "dex",
+                            "int",
+                            "wis"
+                        ],
+                        "count": 1
+                    }
+                }
+            ],
+            "size": [
+                "M"
+            ],
+            "speed": 30,
+            "languageProficiencies": [
+                {
+                    "common": true,
+                    "choose": {
+                        "count": 1
+                    }
+                }
+            ],
+            "toolProficiencies": [
+                {
+                    "choose": {
+                        "from": [
+                            "brewer's supplies",
+                            "cook's utensils"
+                        ],
+                        "count": 1
+                    }
+                }
+            ],
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Natural Armour",
+                    "entries": [
+                        "Your spines provide natural defense. Your unarmored AC is 15 plus your dexterity modifier, up to a maximum of 17. You may not equip armor, but you may equip a shield."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Spikes, Yo.",
+                    "entries": [
+                        "When you are hit with a melee attack, you can choose to use your reaction to deal 1d4 piercing damage to the attacking creature. This damage increases to 2d4 at 5th level, 3d4 at 11th level, and 4d4 at 17th level."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Roll to Hit",
+                    "entries": [
+                        "As an action, you can curl into a ball and roll through the battlefield a distance up to your movement. If you roll within 5 feet of another creature, you may choose to make it succeed on a DC15 Dexterity saving throw or be damaged by your spikes. On a failure, they take piercing damage given by a number of d4 equal to your proficiency bonus. Your AC becomes 20 for the duration of this movement.",
+                        "This feature may affect a number of creatures up to your proficiency bonus and uses your action and your movement."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Badger",
+            "source": "SolaceofEvenwode",
+            "creatureTypes": [
+                "humanoid"
+            ],
+            "ability": [
+                {
+                    "con": 2,
+                    "choose": {
+                        "count": 1,
+                        "from": [
+                            "cha",
+                            "dex",
+                            "int",
+                            "str",
+                            "wis"
+                        ]
+                    }
+                }
+            ],
+            "size": [
+                "M"
+            ],
+            "speed": {
+                "walk": 30
+            },
+            "traitTags": [
+                "Powerful Build"
+            ],
+            "weaponProficiencies": [
+                {
+                    "martial": true
+                }
+            ],
+            "languageProficiencies": [
+                {
+                    "common": true,
+                    "anyStandard": 1
+                }
+            ],
+            "toolProficiencies": [
+                {
+                    "smith's tools": true
+                }
+            ],
+            "entries": [
+                "Your Badger character has the following traits:",
+                {
+                    "type": "entries",
+                    "name": "Ability Score Increase",
+                    "entries": [
+                        "Your Constitution score increases by 2, and one other ability score of your choice increases by 1."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Age",
+                    "entries": [
+                        "Badgers mature by age 20, and may live up to 150 years."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Languages",
+                    "entries": [
+                        "You can speak, write and read Common, plus one other language of your choice."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Powerful Build",
+                    "entries": [
+                        "You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Battle-Trained",
+                    "entries": [
+                        "You are proficient with martial weapons and {@item smith's tools|PHB}."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Eulalia!",
+                    "entries": [
+                        "Your training in leadership has led to the ability to inspire those around you in battle. As a bonus action, select up to 8 creatures within 15 feet of yourself. Until the start of your next turn, these creatures may add an additional {@dice 1d4} to each of their attack rolls and saving throws. You may use this trait a number of times equal to your proficiency bonus. You regain all expended uses upon a long rest."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Bloodwrath",
+                    "entries": [
+                        "Once per long rest, you may activate your Bloodwrath as a bonus action. Roll a number of {@dice d8} equal to 3 times your proficiency bonus and gain that many temporary hit points. While Bloodwrath is active, you gain resistance to all damage. Additionally, the number of damage dice from your weapon is doubled. You cannot cast spells while in Bloodwrath and cannot gain temporary hit points from another source while in Bloodwrath.",
+                        "Your Bloodwrath ends if all of the temporary hit points provided by this feature are lost, or if your turn ends and you have not attacked a hostile creature since your last turn or taken damage since then. Once your Bloodwrath ends, you take 2 levels of {@condition exhaustion}, and cannot take actions or move for one turn."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Hare",
+            "source": "SolaceofEvenwode",
+            "creatureTypes": [
+                "humanoid"
+            ],
+            "speed": {
+                "walk": 40
+            },
+            "traitTags": [
+               "Natural Weapon"
+            ],
+            "size": [
+                "M"
+            ],
+            "languageProficiencies": [
+                {
+                    "common": true,
+                    "anyStandard": 1
+                }
+            ],
+            "weaponProficiencies": [
+                {
+                    "choose": {
+                        "fromFilter": "type=martial weapon",
+                        "count": 2
+                    }
+                }
+            ],
+            "entries": [
+                "Hare Traits",
+                "Your Hare character has the following traits:",
+                {
+                    "type": "entries",
+                    "name": "Age",
+                    "entries": [
+                        "Hares mature by age 15, and may live up to 80 years."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Size",
+                    "entries": [
+                        "Hares stand between 6 and 7 feet tall and average about 180 pounds. Your size is Medium."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Speed",
+                    "entries": [
+                        "Your base walking speed is 40 feet."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Languages",
+                    "entries": [
+                        "You can speak, write and read Common, plus one other language of your choice."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Bottomless Pit",
+                    "entries": [
+                        "You can eat three times as fast as an average creature your size and can consume two days worth of full meals in one sitting with no ill effects. This does not affect your typical need for food."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Army Discipline",
+                    "entries": [
+                        "You have proficiency in two martial weapons of your choice."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Hare Kick",
+                    "entries": [
+                        "As a bonus action, you may kick a creature within 5 feet of you. This counts as a melee weapon attack and uses your Dexterity modifier and proficiency bonus. On a hit, the creature takes {@damage 1d6} bludgeoning damage plus your Dexterity modifier, and must make a DC 13 strength saving throw or be pushed 5 feet away. If the creature fails by 5 or more, it is pushed 10 feet away.",
+                        "You may use this trait a number of times equal to your Proficiency bonus. You regain all uses after completing a long rest."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Perilous",
+                    "entries": [
+                        "Once per short rest, you can give yourself advantage on one attack or saving throw. You may choose to use this feature after you have rolled, but before you know the result of the roll.",
+                        "Additionally, once per long rest, if you were to drop to 0 hit points, you fall to 1 hit point instead."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Lineages",
+                    "entries": [
+                        "You may select from one of two hare lineages: Long Patrol and March Hare."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Mice",
+            "source": "SolaceofEvenwode",
+            "creatureTypes": [
+                "humanoid"
+            ],
+            "size": [
+                "S"
+            ],
+            "speed": {
+              "walk": 25
+            },
+            "ability": [
+                {
+                    "choose": {
+                        "weighted": {
+                            "from": [
+                                "cha","con","dex","int","str","wis"
+                            ],
+                            "weights": [2, 1]
+                        }
+                    }
+                },
+                {
+                    "choose": {
+                        "count": 3,
+                        "from": [
+                            "cha","con","dex","int","str","wis"
+                        ],
+                        "amount": 1
+                    }
+                }
+            ],
+            "languageProficiencies": [
+                {
+                    "common": true,
+                    "anyStandard": 1
+                }
+            ],
+            "entries": [
+                "Mouse Traits",
+                "Your Mouse character has the following traits:",
+                {
+                    "type": "entries",
+                    "name": "Age",
+                    "entries": [
+                        "A Mouse matures by age 10, and lives for up to 50 years."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Languages",
+                    "entries": [
+                        "You can speak, write and read Common, plus one other language of your choice."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Ability Score Increase",
+                    "entries": [
+                        "You may choose to add 2 to one ability score of your choice, and 1 to another. Alternately, you may choose to add 1 to three ability scores of your choice."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Ingenious",
+                    "entries": [
+                        "You have a number of ingenuity die ({@dice d6}) equal to your proficiency bonus. These die can be added to any attack, skill check, or saving throw. You may add the value after you have rolled but before you know the result of the roll. You regain all uses on a long rest."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "I Am That Is",
+                    "entries": [
+                        "You have advantage when making intelligence checks to solve a puzzle or riddle."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Feat",
+                    "entries": [
+                        "You may select one feat of your choice."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Otter",
+            "source": "SolaceofEvenwode",
+            "creatureTypes": [
+                "humanoid"
+            ],
+            "page": 0,
+            "size": [
+                "M"
+            ],
+            "speed": {
+              "walk": 30,
+              "swim": 30
+            },
+            "ability": [
+                {
+                    "str": 2,
+                    "choose": {
+                        "from": ["cha","con","dex","int","wis"],
+                        "amount": 1,
+                        "count": 1
+                    }
+                }
+            ],
+            "traitTags": [
+                "Natural Weapon"
+            ],
+            "languageProficiencies": [
+                {
+                    "common": true,
+                    "anyStandard": 1
+                }
+            ],
+            "entries": [
+                "Otter Traits",
+                "Your Otter character has the following traits:",
+                {
+                    "type": "entries",
+                    "name": "Age",
+                    "entries": [
+                        "An Otter matures by age 20, and lives for up to 100 years."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Languages",
+                    "entries": [
+                        "You can speak, write and read Common, plus one other language of your choice."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Ability Score Increase",
+                    "entries": [
+                        "Your Strength score increases by 2, and one other ability score of your choice increases by 1."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "River Fighter",
+                    "entries": [
+                        "You are proficient with javelins and slings."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Tail Hit",
+                    "entries": [
+                        "As an action, you can make a melee weapon attack using your tail. You may add your strength modifier and your proficiency bonus to the attack roll. It has a reach of 5ft, with one target. On a hit, you do {@dice 1d8} plus your strength modifier bludgeoning damage. This attack is not made at disadvantage due to being underwater."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "River Scion",
+                    "entries": [
+                        "You can hold your breath under water for 10 minutes and you do not lose your breath when casting spells or receiving damage, unless that damage is from a critical hit. Additionally, you have a swimming speed equal to your walking speed."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Ruff'n'Tumble",
+                    "entries": [
+                        "As a reaction to a critical hit, you may instead turn that attack into a normal hit. You tumble out of the way into a space adjacent to the attacking creature, you can move up to 10 feet as part of the reaction. If there is no where you can move, you cannot use this feature. You may use this feature twice per day and regain all uses after completing a long rest."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Moles",
+            "source": "SolaceofEvenwode",
+            "ability": [
+                {
+                    "wis": 2,
+                    "choose": {
+                        "from": [
+                            "cha","con","dex","int","str"
+                        ],
+                        "count": 1,
+                        "amount": 1
+                    }
+                }
+            ],
+            "darkvision": 120,
+            "blindsight": 10,
+            "creatureTypes": [
+                "humanoid"
+            ],
+            "size": [
+                "M"
+            ],
+            "speed": {
+                "walk": 30,
+                "burrow": 30
+            },
+            "traitTags": [
+                "Natural Weapon"
+            ],
+            "languageProficiencies": [
+                {
+                    "common": true,
+                    "anyStandard": 1
+                }
+            ],
+            "entries": [
+                "Mole Traits",
+                "Your Mole character has the following traits:",
+                {
+                    "type": "entries",
+                    "name": "Age",
+                    "entries": [
+                        "A Mole matures by age 20, and lives for up to 100 years."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Languages",
+                    "entries": [
+                        "You can speak, write and read Common, plus one other language of your choice."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Ability Score Increase",
+                    "entries": [
+                        "Your Wisdom score increases by 2, and one other ability score of your choice increases by 1."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Child of Earth",
+                    "entries": [
+                        "You cannot get lost while traveling underground. You have {@sense Darkvision} to 120 feet, and {@sense Blindsight} to 10 feet. While in sunlight, you have disadvantage on {@skill Perception} checks which rely on vision.",
+                        "Additionally, you have a burrow speed equal to your walking speed."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Digging Claws",
+                    "entries": [
+                        "Your claws are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to {@dice 1d6} plus you Strength modifier instead of the bludgeoning damage normal for an unarmed strike."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Gaffer's Wisdom",
+                    "entries": [
+                        "You have advantage on Wisdom checks made to determine the safest path or best course of action."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Unintelligible",
+                    "entries": [
+                        "You speak in such a strong dialect that creatures have a hard time understanding you. It takes you twice as long to convey the same information as other creatures unless the creatures you are talking with have spent at least a week with you."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Shrews",
+            "source": "SolaceofEvenwode",
+            "size": [
+                "S"
+            ],
+            "ability": [
+                {
+                    "dex": 2,
+                    "choose": {
+                        "from": [
+                            "cha","con","int","str","wis"
+                        ],
+                        "count": 1,
+                        "amount": 1
+                    }
+                }
+            ],
+            "speed": {
+                "walk": 30
+            },
+            "languageProficiencies": [
+                {
+                    "common": true,
+                    "anyStandard": 1
+                }
+            ],
+            "weaponProficiencies": [
+                {
+                    "rapier|phb": true
+                }
+            ],
+            "entries": [
+                "Shrew Traits",
+                "Your Shrew character has the following traits:",
+                {
+                    "type": "entries",
+                    "name": "Age",
+                    "entries": [
+                        "A Shrew matures by age 15, and lives for up to 80 years."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Languages",
+                    "entries": [
+                        "You can speak, write and read Common, plus one other language of your choice."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Ability Score Increase",
+                    "entries": [
+                        "Your Dexterity score increases by 2, and one other ability score of your choice increases by 1."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Quick Dueling",
+                    "entries": [
+                        "You are proficient with rapiers."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Fury of the Small",
+                    "entries": [
+                        "When you damage a creature with an attack or a spell and the creature's size is larger than yours, you can cause the attack or spell to deal extra damage to the creature. The extra damage equals your level. Once you use this trait, you can't use it again until you finish a short or long rest."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Pack Tactics",
+                    "entries": [
+                        "You have advantage on an attack roll against a creature if at least one of your allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Shrewd",
+                    "entries": [
+                        "As argumentative folk, you know have learned how to throw conversations to your advantage. When any creature within 60 feet of you makes a Wisdom or Charisma check, you can force them to reroll the {@dice d20} and take the new roll. You can use this a number of times equal to your Proficiency Bonus per day and regain all uses after completing a long rest."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Riverfolk",
+                    "entries": [
+                        "You know the local waterways and cannot get lost while travelling by boat on a river."
+                    ]
+                }
+            ]
+        }
+        
+        
+        
+    ],
+    "subrace": [
+        {
+            "name": "Long Patrol",
+            "source": "SolaceofEvenwode",
+            "raceName": "Hare",
+            "raceSource": "SolaceofEvenwode",
+            "ability": [
+                {
+                    "dex": 2,
+                    "choose": {
+                        "count": 1,
+                        "from": [
+                            "cha",
+                            "con",
+                            "int",
+                            "str",
+                            "wis"
+                        ]
+                    }
+                }
+            ],
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Ability Score Increase",
+                    "entries": [
+                        "Your Dexterity score increases by 2, and one other ability score of your choice increases by 1."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Tis Our Law",
+                    "entries": [
+                        "If a character with the Badger ancestry uses their Eulalia! Trait and you are within 15 feet, able to hear, and not {@condition incapacitated}, you may use your reaction to move up to half your speed and take one attack against a creature of your choice without provoking opportunity attacks."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "March Hare",
+            "source": "SolaceofEvenwode",
+            "raceName": "Hare",
+            "raceSource": "SolaceofEvenwode",
+            "ability": [
+                {
+                    "con": 2,
+                    "choose": {
+                        "count": 1,
+                        "from": [
+                            "cha",
+                            "dex",
+                            "int",
+                            "str",
+                            "wis"
+                        ]
+                    }
+                }
+            ],
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Ability Score Increase",
+                    "entries": [
+                        "Your Constitution score increases by 2, and one other ability score of your choice increases by 1."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Bonny Feast",
+                    "entries": [
+                        "When you sit down for a meal, you can share at least 50 gold worth of wine (that you provide) with others at the meal, which is then consumed. Choose a number of creatures who are feasting with you, up to twice your proficiency bonus. Each of these creatures gains {@dice 2d10} temporary hit points and makes their next saving throw with advantage. These benefits last for 24 hours.",
+                        "This meal takes an hour to consume and the benefits only apply after the hour is over. You may use this feature once per long rest."
+                    ]
+                }
+            ]
+        }
+    ],
+    "foundryRaceFeature": [
+        {
+            "name": "Natural Armour",
+            "source": "SolaceofEvenwode",
+            "raceName": "Hedgehog",
+            "raceSource": "SolaceofEvenwode",
+            "effects":[
+				{
+					"name": "Natural Armour",
+                    "transfer": true,
+					"changes": [
+						{
+							"key": "data.attributes.ac.calc",
+							"mode": "OVERRIDE",
+							"value": "custom"
+						},
+						{
+							"key": "data.attributes.ac.formula",
+							"mode": "OVERRIDE",
+							"value": "max(15,15 + min(2, @abilities.dex.mod))"
+						}
+					]
+				}
+			]
+        },
+        {
+            "name": "Roll to Hit",
+            "source": "SolaceofEvenwode",
+            "raceName": "Hedgehog",
+            "raceSource": "SolaceofEvenwode",
+            "system": {
+				"activation.type": "action",
+				"activation.cost": 1,
+				"target.value": 30,
+				"target.units": "ft",
+				"target.type": "line",
+                "target.width": "5",
+				"save.ability": "dex",
+                "save.dc": "15",
+                "scaling": "flat",
+                "actionType": "save",
+                "damage.parts": ["(@prof)d4", "piercing"]
+            }
+        },
+        {
+            "name": "Spikes, Yo.",
+            "source": "SolaceofEvenwode",
+            "raceName": "Hedgehog",
+            "raceSource": "SolaceofEvenwode",
+            "system": {
+                "description.chat": "You strike back with your spikes as a reaction.",
+                "activation.type": "reaction",
+                "activation.cost": 1,
+                "activation.condition": "when you are hit by a melee attack",
+                "target.value": 1,
+                "target.type": "creature",
+                "damage.parts": ["(floor((@details.level+1)/6+1)d4", "piercing"]
+            }
+        },
+        {
+            "name": "Bloodwrath",
+            "source": "SolaceofEvenwode",
+            "raceName": "Badger",
+            "raceSource": "SolaceofEvenwode",
+            "system": {
+                "activation.type": "bonus",
+                "activation.cost": 1
+            }
+        },
+        {
+            "name": "Eulalia!",
+            "source": "SolaceofEvenwode",
+            "raceName": "Badger",
+            "raceSource": "SolaceofEvenwode",
+            "system": {
+                "activation.type": "bonus",
+                "activation.cost": 1,
+                "uses.max": "@prof",
+                "uses.per": "lr",
+                "target.value": 8,
+                "target.type": "creature"
+            }
+        },
+        {
+            "name": "Hare Kick",
+            "source": "SolaceofEvenwode",
+            "raceName": "Hare",
+            "raceSource": "SolaceofEvenwode",
+            "system": {
+                "description.value": "<p>As a bonus action, you may kick a creature within 5 feet of you. This counts as a melee weapon attack and uses your Dexterity modifier and proficiency bonus. On a hit, the creature takes 1d6 bludgeoning damage plus your Dexterity modifier, and must make a DC 13 strength saving throw or be pushed 5 feet away. If the creature fails by 5 or more, it is pushed 10 feet away. You may use this trait a number of times equal to your Proficiency bonus. You regain all uses after completing a long rest.</p>",
+                "activation.type": "bonus",
+                "activation.cost": 1,
+                "target.value": 1,
+                "target.type": "creature",
+                "uses.value": 1,
+                "uses.max": "@prof",
+                "uses.per": "lr",
+                "ability": "dex",
+                "actionType": "mwak",
+                "damage.parts": ["1d6+@abilities.dex.mod", "bludgeoning"],
+                "save.ability": "str",
+                "save.dc": 13,
+                "save.scaling": "flat",
+                "type.value": "race"
+            }   
+        },
+        {
+            "name": "Tail Hit",
+            "source": "SolaceofEvenwode",
+            "raceName": "Otter",
+            "raceSource": "SolaceofEvenwode",
+            "system": {
+                "description.value": "<p>As an action, you can make a melee weapon attack using your tail. You may add your strength modifier and your proficiency bonus to the attack roll. It has a reach of 5ft, with one target. On a hit, you do 1d8 plus your strength modifier bludgeoning damage. This attack is not made at disadvantage due to being underwater.</p>",
+                "activation.type": "action",
+                "activation.cost": 1,
+                "target.value": 1,
+                "target.type": "creatureOrObject",
+                "range.value": 5,
+                "range.units": "ft",
+                "ability": "str",
+                "actionType": "mwak",
+                "damage.parts": ["1d8+@abilities.str.mod", "bludgeoning"],
+                "type.value": "race"
+            }
+        },
+        {
+            "name": "Ruff'n'Tumble",
+            "source": "SolaceofEvenwode",
+            "raceName": "Otter",
+            "raceSource": "SolaceofEvenwode",
+            "system": {
+                "activation.type": "reaction",
+                "activation.cost": 1,
+                "activation.condition": "to a critical hit",
+                "uses.value": 2,
+                "uses.max": 2, 
+                "uses.per": "lr"
+            }
+        },
+        {
+            "name": "Digging Claws",
+            "source": "SolaceofEvenwode",
+            "raceName": "Mole",
+            "raceSource": "SolaceofEvenwode",
+            "system": {
+                "actionType": "other",
+                "damage.parts": ["1d6","slashing"]
+            }
+        }
+    ]
+}
