@@ -1109,6 +1109,84 @@
                     ]
                 }
             ]
+        },
+        {
+            "name": "Ermine",
+            "source": "SolaceofEvenwode",
+            "size": [
+                "M"
+            ],
+            "speed": {
+                "walk": 30
+            },
+            "languageProficiencies": [
+                {
+                    "common": true,
+                    "anyStandard": 1
+                }
+            ],
+            "weaponProficiencies": [
+                {
+                    "choose": {
+                        "fromFilter": "type=martial weapon",
+                        "count": 2
+                    }
+                }
+            ],
+            "entries": [
+                "Ermine Traits",
+                "Your Ermine character has the following traits:",
+                {
+                    "type": "entries",
+                    "name": "Age",
+                    "entries": [
+                        "A Ermine matures by age 25, and lives for up to 200 years."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Languages",
+                    "entries": [
+                        "You can speak, write and read Common, plus one other language of your choice."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Darkvision",
+                    "entries": [
+                        "You can see in {@quickref Vision and Light||2||dim light} within 60 feet of yourself as if it were {@quickref Vision and Light||2||bright light} and in darkness as if it were {@quickref Vision and Light||2||dim light}. You discern colors in that darkness only as shades of gray."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Martial Training",
+                    "entries": [
+                        "You grew up around weaponry and have learned the basic skills. You can add your proficiency bonus to two martial weapons of your choice."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Quick Pickup",
+                    "entries": [
+                        "When a fox character uses their Flash of {@skill Insight} feature and you are within 15 feet, able to hear, and not {@condition incapacitated}, you may use your reaction to move up to half your speed without provoking opportunity attacks and make an attack against one creature of your choice.",
+                        "Alternatively, you may instead use your reaction to perform the {@action Help} action and aid a creature within 10 feet of you."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Totally Tubular",
+                    "entries": [
+                        "As a long and slender creature, you have advantage on saves and checks to escape restraint or grapple."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Lineages",
+                    "entries": [
+                        "Choose from one of three lineages: Stoat, Ferret or Weasel."
+                    ]
+                }
+            ]
         }
         
         
@@ -1197,6 +1275,11 @@
             "source": "SolaceofEvenwode",
             "raceName": "Fox",
             "raceSource": "SolaceofEvenwode",
+            "expertise": [
+                {
+                    "stealth": true
+                }
+            ],
             "entries": [
                 {
                     "type": "entries",
@@ -1219,6 +1302,11 @@
             "source": "SolaceofEvenwode",
             "raceName": "Fox",
             "raceSource": "SolaceofEvenwode",
+            "expertise": [
+                {
+                    "insight": true
+                }
+            ],
             "entries": [
                 {
                     "type": "entries",
@@ -1254,6 +1342,179 @@
                     "name": "Burning Clarity",
                     "entries": [
                         "After reaching 3rd level, you can cast the {@spell branding smite} spell without any material components. Once you have cast this spell using this feature, you can't cast it again with this feature until you finish a long rest. Charisma is your spellcasting ability for this spell."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Stoat",
+            "source": "SolaceofEvenwode",
+            "raceName": "Ermine",
+            "raceSource": "SolaceofEvenwode",
+            "traitTags": [
+                "Skill Proficiency"
+            ],
+            "ability": [
+                {
+                    "str": 2,
+                    "choose": {
+                        "from": [
+                            "cha","con","dex","int","wis"
+                        ],
+                        "amount": 1,
+                        "count": 1
+                    }
+                }
+            ],
+            "skillProficiencies": [
+                {
+                    "choose": {
+                        "from": [
+                            "deception",
+                            "insight"
+                        ],
+                        "count": 1
+                    }
+                }
+            ],
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Ability Score Increase",
+                    "entries": [
+                        "Your Strength score increases by 2, and one other ability score of your choice increases by 1."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Go with your Gut",
+                    "entries": [
+                        "You have proficiency in either the {@skill Deception} or {@skill Insight} skill. You choose the skill when you select this lineage."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Corsair Duel",
+                    "entries": [
+                        "If you are within 5 feet of a creature that is your size or smaller and no other creatures are within 5 feet of you, that creature may not willingly move outside of your melee range unless you permit them to."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Ferret",
+            "source": "SolaceofEvenwode",
+            "raceName": "Ermine",
+            "raceSource": "SolaceofEvenwode",
+            "traitTags": [
+                "Skill Proficiency"
+            ],
+            "ability": [
+                {
+                    "dex": 2,
+                    "choose": {
+                        "from": [
+                            "cha","con","str","int","wis"
+                        ],
+                        "amount": 1,
+                        "count": 1
+                    }
+                }
+            ],
+            "skillProficiencies":[
+                {
+                    "choose": {
+                        "from": [
+                            "investigation",
+                            "perception"
+                        ],
+                        "count": 1
+                    }
+                }
+            ],
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Ability Score Increase",
+                    "entries": [
+                        "Your Dexterity score increases by 2, and one other ability score of your choice increases by 1."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Quick Eye",
+                    "entries": [
+                        "You have proficiency in either the {@skill Investigation} or {@skill Perception} skill. You choose the skill when you select this lineage."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Flitcheye",
+                    "entries": [
+                        "As an action, you may dig a small burrow in non-magical earth or loose stone large enough for a medium creature. You may hide in this burrow as a bonus action. You can create this burrow a number of times equal to your Proficiency Bonus and regain all uses after competing a long rest."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Lay in Wait",
+                    "entries": [
+                        "You have advantage on stealth checks made to hide underground or in holes."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Weasel",
+            "source": "SolaceofEvenwode",
+            "raceName": "Ermine",
+            "raceSource": "SolaceofEvenwode",
+            "traitTags": [
+                "Skill Proficiency"
+            ],
+            "ability": [
+                {
+                    "wis": 2,
+                    "choose": {
+                        "from": [
+                            "cha","con","str","int","dex"
+                        ],
+                        "amount": 1,
+                        "count": 1
+                    }
+                }
+            ],
+            "skillProficiencies":[
+                {
+                    "choose": {
+                        "from": [
+                            "acrobatics",
+                            "athletics"
+                        ],
+                        "count": 1
+                    }
+                }
+            ],
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Ability Score Increase",
+                    "entries": [
+                        "Your Wisdom score increases by 2, and one other ability score of your choice increases by 1."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Nimble",
+                    "entries": [
+                        "You have proficiency in either the {@skill Acrobatics} or {@skill Athletics} skill.",
+                        "You choose the skill when you select this lineage."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Guerilla Tactics",
+                    "entries": [
+                        "As a bonus action, you can move up to your speed. This movement does not provoke opportunity attacks and the next stealth check you make within the next minute is made at advantage. You can use this feature twice per day and regain all uses after completing a long rest. If you are in a grassland, you can use this feature two additional times."
                     ]
                 }
             ]
