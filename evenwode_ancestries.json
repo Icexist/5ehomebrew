@@ -62,31 +62,67 @@
             ],
             "darkvision": 60,
             "entries": [
+                "Vole Traits",
+                "Your Vole character has the following traits:",
                 {
+                    "type": "entries",
+                    "name": "Age",
+                    "entries": [
+                        "A Vole matures by age 10, and lives for up to 50 years."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Size",
+                    "entries": [
+                        "Voles stand between 2 and 4 feet tall, and average about 40 pounds. Your size is Small."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Speed",
+                    "entries": [
+                        "Your base walking speed is 30 feet."
+                    ]
+                },
+                {
+                    "type": "entries",
                     "name": "Languages",
                     "entries": [
-                        "You can speak, read and write Common and one additional language of your choice."
-                    ],
-                    "type": "entries"
+                        "You can speak, write and read Common, plus one other language of your choice."
+                    ]
                 },
                 {
+                    "type": "entries",
+                    "name": "Ability Score Increase",
+                    "entries": [
+                        "Your Intelligence score increases by 2, and one other ability score of your choice increases by 1."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Darkvision",
+                    "entries": [
+                        "You can see in {@quickref Vision and Light||2||dim light} within 60 feet of yourself as if it were {@quickref Vision and Light||2||bright light} and in darkness as if it were {@quickref Vision and Light||2||dim light}. You discern colors in that darkness only as shades of gray."
+                    ]
+                },
+                {
+                    "type": "entries",
                     "name": "Too Clever",
-                    "type": "entries",
                     "entries": [
-                        "You delight in creating puzzles and traps. You are proficient in either Thieves' or Tinker's tools. You have advantage on an Intelligence or Dexterity checks when setting traps or creating puzzles or riddles."
+                        "You delight in creating puzzles and traps. You are proficient in one of Thieves' or {@item Tinker's tools|PHB}. You have advantage on an Intelligence or Dexterity checks when setting traps or creating puzzles or riddles."
                     ]
                 },
                 {
+                    "type": "entries",
                     "name": "Tricksy",
-                    "type": "entries",
                     "entries": [
-                        "You can cast snare with this trait. Starting at 3rd level, you can cast knock with it, and starting at 5th level, you can also cast nondetection with it.", 
-                        "Once you cast a spell with this trait, you can't cast the same spell with it again until you finish a long rest. Intelligence is your spellcasting ability for these spells."
+                        "You can cast _snare_ with this trait. Starting at 3rd level, you can cast _knock_ with it, and starting at 5th level, you can also cast _nondetection_ with it. Once you cast a spell with this trait, you can't cast the same spell with it again until you finish a long rest. Intelligence is your spellcasting ability for these spells."
                     ]
                 },
                 {
-                    "name": "Naturally Stealthy",
                     "type": "entries",
+                    "name": "Naturally Stealthy",
                     "entries": [
                         "You can attempt to hide even when you are obscured only by a creature that is at least one size larger than you."
                     ]
@@ -181,26 +217,77 @@
                 }
             ],
             "entries": [
+                "Hedgehog Traits",
+                "Your Hedgehog character has the following traits:",
                 {
                     "type": "entries",
-                    "name": "Natural Armour",
+                    "name": "Age",
                     "entries": [
-                        "Your spines provide natural defense. Your unarmored AC is 15 plus your dexterity modifier, up to a maximum of 17. You may not equip armor, but you may equip a shield."
+                        "Hedgehogs mature by age 15, and live up to 80 years."
                     ]
                 },
                 {
                     "type": "entries",
-                    "name": "Spikes, Yo.",
+                    "name": "Size",
                     "entries": [
-                        "When you are hit with a melee attack, you can choose to use your reaction to deal 1d4 piercing damage to the attacking creature. This damage increases to 2d4 at 5th level, 3d4 at 11th level, and 4d4 at 17th level."
+                        "Hedgehogs stand between 5 and 6 feet tall and average about 180 pounds.",
+                        "Your size is Medium."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Speed",
+                    "entries": [
+                        "Your base walking speed is 30 feet."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Languages",
+                    "entries": [
+                        "You can speak, write and read Common, plus one other language of your choice."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Ability Score Increase",
+                    "entries": [
+                        "Your Strength score increases by 2, and one other ability score of your choice increases by 1."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Cellar Hog",
+                    "entries": [
+                        "You are proficient in either {@item Brewer's supplies|PHB} or {@item Cook's utensils|PHB}."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Natural Armor",
+                    "entries": [
+                        "Your spines provide natural defense.",
+                        "Your unarmored AC is 15 plus your dexterity modifier, up to a maximum of 17.",
+                        "You may not equip armor, but you may equip a shield."
                     ]
                 },
                 {
                     "type": "entries",
                     "name": "Roll to Hit",
                     "entries": [
-                        "As an action, you can curl into a ball and roll through the battlefield a distance up to your movement. If you roll within 5 feet of another creature, you may choose to make it succeed on a DC15 Dexterity saving throw or be damaged by your spikes. On a failure, they take piercing damage given by a number of d4 equal to your proficiency bonus. Your AC becomes 20 for the duration of this movement.",
+                        "As an action, you can curl into a ball and roll through the battlefield.",
+                        "If you roll within 5 feet of another creature, you may choose to make it succeed on a DC15 Dexterity saving throw or be damaged by your spikes.",
+                        "On a failure, they take piercing damage given by a number of {@dice d4} equal to your proficiency bonus.",
+                        "Your AC becomes 20 for the duration of this movement.",
                         "This feature may affect a number of creatures up to your proficiency bonus and uses your action and your movement."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Spikes, yo",
+                    "entries": [
+                        "When you are hit with a melee attack, you can choose to use your reaction to deal {@damage 1d4} piercing damage to the attacking creature.",
+                        "This damage increases to {@dice 2d4} at 5th level, {@dice 3d4} at 11th level, and {@dice 4d4} at 17th level."
                     ]
                 }
             ]
@@ -252,6 +339,7 @@
                 }
             ],
             "entries": [
+                "Badger Traits",
                 "Your Badger character has the following traits:",
                 {
                     "type": "entries",
@@ -265,6 +353,21 @@
                     "name": "Age",
                     "entries": [
                         "Badgers mature by age 20, and may live up to 150 years."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Speed",
+                    "entries": [
+                        "Your base walking speed is 30 feet."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Size",
+                    "entries": [
+                        "Badgers stand between 6 and 8 feet tall and average about 280 pounds.",
+                        "Your size is Medium."
                     ]
                 },
                 {
@@ -292,7 +395,8 @@
                     "type": "entries",
                     "name": "Eulalia!",
                     "entries": [
-                        "Your training in leadership has led to the ability to inspire those around you in battle. As a bonus action, select up to 8 creatures within 15 feet of yourself. Until the start of your next turn, these creatures may add an additional {@dice 1d4} to each of their attack rolls and saving throws. You may use this trait a number of times equal to your proficiency bonus. You regain all expended uses upon a long rest."
+                        "Your training in leadership has led to the ability to inspire those around you in battle. As a bonus action, select up to 8 creatures within 15 feet of yourself. Until the start of your next turn, these creatures may add an additional {@dice 1d4} to each of their attack rolls and saving throws.",
+                        "You may use this trait a number of times equal to your proficiency bonus. You regain all expended uses upon a long rest."
                     ]
                 },
                 {
@@ -578,7 +682,7 @@
             ]
         },
         {
-            "name": "Moles",
+            "name": "Mole",
             "source": "SolaceofEvenwode",
             "ability": [
                 {
@@ -669,7 +773,7 @@
             ]
         },
         {
-            "name": "Shrews",
+            "name": "Shrew",
             "source": "SolaceofEvenwode",
             "size": [
                 "S"
@@ -760,7 +864,95 @@
                     ]
                 }
             ]
+        },
+        {
+            "name": "Squirrel",
+            "source": "SolaceofEvenwode",
+            "size": [
+                "M"
+            ],
+            "speed": {
+              "walk": 30,
+              "climb": 30
+            },
+            "languageProficiencies": [
+                {
+                    "common": true,
+                    "anyStandard": 1
+                }
+            ],
+            "weaponProficiencies": [
+                {
+                    "shortbow|phb": true
+                }
+            ],
+            "ability": [
+                {
+                    "dex": 2,
+                    "choose": {
+                        "from": [
+                            "cha","con","int","str","wis"
+                        ],
+                        "count": 1,
+                        "amount": 1
+                    }
+                }
+            ],
+            "entries": [
+                "Squirrel Traits",
+                "Your Squirrel character has the following traits:",
+                {
+                    "type": "entries",
+                    "name": "Age",
+                    "entries": [
+                        "A Squirrel matures by age 15, and lives for up to 80 years."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Languages",
+                    "entries": [
+                        "You can speak, write and read Common, plus one other language of your choice."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Ability Score Increase",
+                    "entries": [
+                        "Your Dexterity score increases by 2, and one other ability score of your choice increases by 1."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Strike at Range",
+                    "entries": [
+                        "You are proficient with shortbows."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Take Aim",
+                    "entries": [
+                        "As a bonus action, you give yourself advantage on your next attack roll on the current turn. You can use this bonus action only if you haven't moved during this turn, and after you use the bonus action, your speed is 0 until the end of the current turn. You can use this feature a number of times equal to your proficiency bonus and regain all uses after completing a long rest."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Verdant Native",
+                    "entries": [
+                        "A native of forests and brushland, you have advantage on stealth checks made to hide in trees or brush. Additionally, you have a climbing speed equal to your walking speed."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Guerilla Tactics",
+                    "entries": [
+                        "As a bonus action, you can move up to your speed. This movement does not provoke opportunity attacks and the next stealth check you make within the next minute is made at advantage. You can use this feature twice per day and regain all uses after completing a long rest. If you are in a forest, you can use this feature two additional times."
+                    ]
+                }
+            ]
         }
+        
         
         
         
@@ -873,6 +1065,7 @@
             "raceName": "Hedgehog",
             "raceSource": "SolaceofEvenwode",
             "system": {
+                "description.value": "<p>As an action, you can curl into a ball and roll through the battlefield. If you roll within 5 feet of another creature, you may choose to make it succeed on a DC15 Dexterity saving throw or be damaged by your spikes. On a failure, they take piercing damage given by a number of d4 equal to your proficiency bonus. </p><p>Your AC becomes 20 for the duration of this movement. </p><p>This feature may affect a number of creatures up to your proficiency bonus and uses your action and your movement.</p>",
 				"activation.type": "action",
 				"activation.cost": 1,
 				"target.value": 30,
@@ -892,6 +1085,7 @@
             "raceName": "Hedgehog",
             "raceSource": "SolaceofEvenwode",
             "system": {
+                "description.value": "<p>When you are hit with a melee attack, you can choose to use your reaction to deal 1d4 piercing damage to the attacking creature. </p><p>This damage increases to 2d4 at 5th level, 3d4 at 11th level, and 4d4 at 17th level.</p>",
                 "description.chat": "You strike back with your spikes as a reaction.",
                 "activation.type": "reaction",
                 "activation.cost": 1,
@@ -908,7 +1102,10 @@
             "raceSource": "SolaceofEvenwode",
             "system": {
                 "activation.type": "bonus",
-                "activation.cost": 1
+                "activation.cost": 1,
+                "uses.value": 1,
+                "uses.max": 1,
+                "uses.per": "lr"
             }
         },
         {
@@ -920,6 +1117,7 @@
                 "activation.type": "bonus",
                 "activation.cost": 1,
                 "uses.max": "@prof",
+                "uses.value": "@prof",
                 "uses.per": "lr",
                 "target.value": 8,
                 "target.type": "creature"
@@ -987,8 +1185,53 @@
             "raceName": "Mole",
             "raceSource": "SolaceofEvenwode",
             "system": {
+                "activation.type": "special",
                 "actionType": "other",
-                "damage.parts": ["1d6","slashing"]
+                "damage.parts": ["1d6","slashing"],
+                "type.value": "race"
+            }
+        },
+        {
+            "name": "Fury of the Small",
+            "source": "SolaceofEvenwode",
+            "raceName": "Shrew",
+            "raceSource": "SolaceofEvenwode",
+            "system": {
+                "activation.type": "special",
+                "actionType": "other",
+                "damage.parts": ["@details.level"],
+                "type.value": "race",
+                "uses.value": 1,
+                "uses.max": 1,
+                "uses.per": "sr"
+            }
+        },
+        {
+            "name": "Take Aim",
+            "source": "SolaceofEvenwode",
+            "raceName": "Squirrel",
+            "raceSource": "SolaceofEvenwode",
+            "system": {
+                "activation.type": "special",
+                "actionType": "other",
+                "type.value": "race",
+                "uses.value": "@prof",
+                "uses.max": "@prof",
+                "uses.per": "lr"
+            }
+        },
+        {
+            "name": "Guerilla Tactics",
+            "source": "SolaceofEvenwode",
+            "raceName": "Squirrel",
+            "raceSource": "SolaceofEvenwode",
+            "system": {
+                "activation.type": "bonus",
+                "actionType": "other",
+                "type.value": "race",
+                "uses.value": "2",
+                "uses.max": "2",
+                "uses.per": "lr"
             }
         }
     ]
