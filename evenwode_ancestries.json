@@ -117,7 +117,7 @@
                     "type": "entries",
                     "name": "Tricksy",
                     "entries": [
-                        "You can cast _snare_ with this trait. Starting at 3rd level, you can cast _knock_ with it, and starting at 5th level, you can also cast _nondetection_ with it. Once you cast a spell with this trait, you can't cast the same spell with it again until you finish a long rest. Intelligence is your spellcasting ability for these spells."
+                        "You can cast {@spell snare|XGE} with this trait. Starting at 3rd level, you can cast {@spell knock} with it, and starting at 5th level, you can also cast {@spell nondetection} with it. Once you cast a spell with this trait, you can't cast the same spell with it again until you finish a long rest. Intelligence is your spellcasting ability for these spells."
                     ]
                 },
                 {
@@ -1168,7 +1168,7 @@
                     "type": "entries",
                     "name": "Quick Pickup",
                     "entries": [
-                        "When a fox character uses their Flash of {@skill Insight} feature and you are within 15 feet, able to hear, and not {@condition incapacitated}, you may use your reaction to move up to half your speed without provoking opportunity attacks and make an attack against one creature of your choice.",
+                        "When a fox character uses their Flash of Insight feature and you are within 15 feet, able to hear, and not {@condition incapacitated}, you may use your reaction to move up to half your speed without provoking opportunity attacks and make an attack against one creature of your choice.",
                         "Alternatively, you may instead use your reaction to perform the {@action Help} action and aid a creature within 10 feet of you."
                     ]
                 },
