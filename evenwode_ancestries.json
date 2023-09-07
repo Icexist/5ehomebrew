@@ -951,6 +951,80 @@
                     ]
                 }
             ]
+        },
+        {
+            "name": "Fox",
+            "source": "SolaceofEvenwode",
+            "size": [
+                "M"
+            ],
+            "speed": {
+                "walk": 30
+            },
+            "ability": [
+                {
+                    "cha": 2,
+                    "choose": {
+                        "from": [
+                            "con","dex","int","str","wis"
+                        ],
+                        "count": 1,
+                        "amount": 1
+                    }
+                }
+            ],
+            "languageProficiencies": [
+                {
+                    "common": true,
+                    "anyStandard": 1
+                }
+            ],
+            "entries": [
+                "Fox Traits",
+                "Your Fox character has the following traits:",
+                {
+                    "type": "entries",
+                    "name": "Age",
+                    "entries": [
+                        "A Fox matures by age 20, and lives for up to 100 years."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Languages",
+                    "entries": [
+                        "You can speak, write and read Common, plus one other language of your choice."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Ability Score Increase",
+                    "entries": [
+                        "Your Charisma score increases by 2, and one other ability score of your choice increases by 1."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Fox's Cunning",
+                    "entries": [
+                        "You can chose to gain advantage on an Intelligence ability check or saving throw. You can chose to use this ability after you have rolled your die but before you know the result of the check. You can use this ability once per short rest."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Flash of Insight",
+                    "entries": [
+                        "Your cunning allows you insight into your immediate environment. As a bonus action, select up to 8 creatures within 15 feet of you. Each of these creatures gains a {@dice d6} that they can roll and add to any skill checks made until the start of your next turn. You can use this feature a number of times equivalent to your proficiency bonus and regain all uses on a short rest."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Lineages",
+                    "entries": [
+                        "Choose from one of three lineages: Marlfox, Farseer or Gorgeborn."
+                    ]
+                }
+            ]
         }
         
         
@@ -1029,6 +1103,72 @@
                     "entries": [
                         "When you sit down for a meal, you can share at least 50 gold worth of wine (that you provide) with others at the meal, which is then consumed. Choose a number of creatures who are feasting with you, up to twice your proficiency bonus. Each of these creatures gains {@dice 2d10} temporary hit points and makes their next saving throw with advantage. These benefits last for 24 hours.",
                         "This meal takes an hour to consume and the benefits only apply after the hour is over. You may use this feature once per long rest."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Marlfox",
+            "source": "SolaceofEvenwode",
+            "raceName": "Fox",
+            "raceSource": "SolaceofEvenwode",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "Expert Camouflage",
+                    "entries": [
+                        "You are proficient in the {@skill Stealth} skill and your proficiency bonus is doubled for this skill."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Mistwalk",
+                    "entries": [
+                        "After reaching 3rd level, you can cast the {@spell blur} spell without any material components. Once you have cast this spell using this feature, you can't cast it again with this feature until you finish a long rest. Charisma is your spellcasting ability for this spell."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Farseer",
+            "source": "SolaceofEvenwode",
+            "raceName": "Fox",
+            "raceSource": "SolaceofEvenwode",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "See Truth",
+                    "entries": [
+                        "You are proficient in the {@skill Insight} skill and your proficiency bonus is doubled for this skill."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Divine Truth",
+                    "entries": [
+                        "After reaching 3rd level, you can cast the {@spell augury} spell without any material components. Once you have cast this spell using this feature, you can't cast it again with this feature until you finish a long rest. Charisma is your spellcasting ability for this spell."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Gorgeborn",
+            "source": "SolaceofEvenwode",
+            "raceName": "Fox",
+            "raceSource": "SolaceofEvenwode",
+            "entries": [
+                {
+                    "type": "entries",
+                    "name": "First Punch",
+                    "entries": [
+                        "You have advantage on Initiative rolls."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Burning Clarity",
+                    "entries": [
+                        "After reaching 3rd level, you can cast the {@spell branding smite} spell without any material components. Once you have cast this spell using this feature, you can't cast it again with this feature until you finish a long rest. Charisma is your spellcasting ability for this spell."
                     ]
                 }
             ]
@@ -1232,6 +1372,38 @@
                 "uses.value": "2",
                 "uses.max": "2",
                 "uses.per": "lr"
+            }
+        },
+        {
+            "name": "Fox's Cunning",
+            "source": "SolaceofEvenwode",
+            "raceName": "Fox",
+            "raceSource": "SolaceofEvenwode",
+            "system": {
+                "activation.type": "special",
+                "actionType": "other",
+                "type.value": "race",
+                "uses.value": "1",
+                "uses.max": "1",
+                "uses.per": "sr"
+            }
+        },
+        {
+            "name": "Flash of Insight",
+            "source": "SolaceofEvenwode",
+            "raceName": "Fox",
+            "raceSource": "SolaceofEvenwode",
+            "system": {
+                "activation.type": "bonus",
+                "actionType": "other",
+                "type.value": "race",
+                "uses.value": "@prof",
+                "uses.max": "@prof",
+                "uses.per": "sr",
+                "target.value": 8,
+                "target.type": "creature",
+                "target.range": 15,
+                "target.units": "ft"
             }
         }
     ]
