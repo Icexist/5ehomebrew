@@ -1025,7 +1025,92 @@
                     ]
                 }
             ]
+        },
+        {
+            "name": "Rat",
+            "source": "SolaceofEvenwode",
+            "size": [
+                "M"
+            ],
+            "speed": {
+                "walk": 30
+            },
+            "ability": [
+                {
+                    "con": 2,
+                    "choose": {
+                        "from": [
+                            "cha","dex","int","str","wis"
+                        ],
+                        "amount": 1,
+                        "count": 1
+                    }
+                }
+            ],
+            "languageProficiencies": [
+                {
+                    "common": true,
+                    "anyStandard": 1
+                }
+            ],
+            "resist": [
+                "poison"
+            ],
+            "entries": [
+                "Rat Traits",
+                "Your Rat character has the following traits:",
+                {
+                    "type": "entries",
+                    "name": "Age",
+                    "entries": [
+                        "A Rat matures by age 10, and lives for up to 70 years."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Languages",
+                    "entries": [
+                        "You can speak, write and read Common, plus one other language of your choice."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Ability Score Increase",
+                    "entries": [
+                        "Your Constitution score increases by 2, and one other ability score of your choice increases by 1."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Darkvision",
+                    "entries": [
+                        "You can see in {@quickref Vision and Light||2||dim light} within 60 feet of yourself as if it were {@quickref Vision and Light||2||bright light} and in darkness as if it were {@quickref Vision and Light||2||dim light}. You discern colors in that darkness only as shades of gray."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Pack Tactics",
+                    "entries": [
+                        "You have advantage on an attack roll against a creature if at least one of your allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Strong Stomach",
+                    "entries": [
+                        "You are resistant to poison damage."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Savage Attacks",
+                    "entries": [
+                        "When you score a critical hit with a melee weapon attack, you can roll one of the weapon's damage dice one additional time and add it to the extra damage of the critical hit."
+                    ]
+                }
+            ]
         }
+        
         
         
         
