@@ -1,0 +1,195 @@
+{
+    "_meta": {
+        "sources": [
+            {
+                "json": "Ar2",
+                "abbreviation": "Ar2",
+                "full": "Arcadia Issue 2",
+                "authors": [
+                    "Joshua Mendenhall"
+                ],
+                "convertedBy": [
+                    "icexist"
+                ],
+                "version": "1.0"
+            }
+        ],
+        "status": "wip",
+        "dateAdded": 1693765452,
+        "dateLastModified": 1693765452
+    },
+    "subclass": [
+        {
+            "name": "Order of Hibernation",
+            "source": "Ar2",
+            "page": 2,
+            "className": "Wizard",
+            "classSource": "PHB",
+            "shortName": "Hibernation",
+            "subclassFeatures": [
+                "Order of Hibernation|Wizard||Hibernation|Ar2|2",
+                "Winter Reserves|Wizard||Hibernation|Ar2|6",
+                "Arcane Stitching|Wizard||Hibernation|Ar2|10",
+                "Wrathbearer|Wizard||Hibernation|Ar2|14"
+            ]
+        }
+    ],
+    "subclassFeature": [
+        {
+            "name": "Order of Hibernation",
+            "source": "Ar2",
+            "className": "Wizard",
+            "classSource": "PHB",
+            "page": 2,
+            "subclassShortName": "Hibernation",
+            "subclassSource": "Ar2",
+            "level": 2,
+            "entries": [
+                "Ceaseless winter winds howl as they tear across the pale landscape, eventually calming to a slight breeze as snow falls in the quiet and cold night. Blinding storms give way to moments of eerie calm and stillness. For some, the sea- son is a time to huddle inside until such cold days pass, but wizards of the Order of Hibernation embrace both the chance for rest and the might of the winter storms.",
+                "In their first lessons, these mages learn to store their potential, banking reserves of magic through repose. This practice bears furious fruit: where many see rest as the end goal, a wizard of this school can use the power of respite as a stepping stone to unleashing the full fury of winter's wrath.",
+                {
+                    "type": "table",
+                    "caption": "Order of Hibernation Features",
+                    "colLabels": [
+                        "Wizard Level",
+                        "Feature",
+                        "Total Additional Hit Dice"
+                    ],
+                    "colStyles": [
+                        "text-center"
+                    ],
+                    "rows": [
+                        [
+                            "2nd",
+                            "Restful Studies, Wrathful Conduit",
+                            "1"
+                        ],
+                        [
+                            "6nd",
+                            "Winter Reserves",
+                            "2"
+                        ],
+                        [
+                            "10nd",
+                            "Arcane Stitching",
+                            "3"
+                        ],
+                        [
+                            "14nd",
+                            "Wrathbearer",
+                            "4"
+                        ]
+                    ]
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Restful Studies|Wizard||Hibernation|Ar2|2|Ar2"
+                },
+                {
+                    "type": "refSubclassFeature",
+                    "subclassFeature": "Wrathful Conduit|Wizard||Hibernation|Ar2|2|Ar2"
+                }
+            ]
+        },
+        {
+            "name": "Restful Studies",
+            "source": "Ar2",
+            "className": "Wizard",
+            "classSource": "PHB",
+            "page": 2,
+            "subclassShortName": "Hibernation",
+            "subclassSource": "Ar2",
+            "level": 2,
+            "header": 1,
+            "entries": [
+                "{@i 2nd-level Order of Hibernation feature}",
+                "Beginning when you select this school at 2nd level, you become more adept at using your resting time. You only need a minimum of 6 hours of total downtime, including 4 hours of sleep (or 3 hours of meditation if you are an elf), to gain the benefits of a long rest, and half an hour of downtime to gain the benefits of a short rest. The time you need to spend to copy a spell into your spellbook is reduced by half.",
+                "Additionally, at 2nd, 6th, 10th, and 14th level you gain an additional Hit Die. These bonus Hit Dice do not affect your hit point maximum, but you can spend them during a short rest or to power certain features. These bonus Hit Dice are always regained alongside the normal number of Hit Dice you regain when you take a long rest."
+            ]
+        },
+        {
+            "name": "Wrathful Conduit",
+            "source": "Ar2",
+            "className": "Wizard",
+            "classSource": "PHB",
+            "page": 2,
+            "subclassShortName": "Hibernation",
+            "subclassSource": "Ar2",
+            "level": 2,
+            "header": 1,
+            "entries": [
+                "{@i 2nd-level Order of Hibernation feature}",
+                "Starting at 2nd level, you can draw upon potential recuperation and turn it into immediate arcane power. When you expend Hit Dice using this feature, you don't regain hit points. You can use only one of the following options on a spell when you cast it.",
+                {
+                    "type": "list",
+                    "items": [
+                        "When you cast a spell, you can expend one wizard Hit Die to cast it without any somatic or verbal components.",
+                        "When you cast a spell that deals damage, you can expend any number of wizard Hit Dice to increase the total damage dealt by the spell by an amount equal to the rolled total of all Hit Dice expended in this way.",
+                        "When you cast a spell that forces a creature to make a saving throw to resist its effects, you can expend one wizard Hit Die to increase the saving throw DC of the spell by 1."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Winter Reserves",
+            "source": "Ar2",
+            "className": "Wizard",
+            "classSource": "PHB",
+            "page": 2,
+            "subclassShortName": "Hibernation",
+            "subclassSource": "Ar2",
+            "level": 6,
+            "header": 2,
+            "entries": [
+                "{@i 6th-level Order of Hibernation feature}",
+                "Starting at 6th level, you have learned to stockpile arcane energy and draw upon the power of this potential. As long as you have three spell slots remaining, you gain the following benefits:",
+                {
+                    "type": "list",
+                    "items": [
+                        "You have +1 bonus to saving throws.",
+                        "While you are not wearing any armor, you have a +2 bonus to AC.",
+                        "You add your Intelligence modifier to the damage you deal with any wizard spell."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Arcane Stitching",
+            "source": "Ar2",
+            "className": "Wizard",
+            "classSource": "PHB",
+            "page": 2,
+            "subclassShortName": "Hibernation",
+            "subclassSource": "Ar2",
+            "level": 10,
+            "header": 2,
+            "entries": [
+                "{@i 10th-level Order of Hibernation feature}",
+                "Beginning at 10th level, your stored arcane energy works to heal your wounds. if you start your turn with less than half of your maximum hit point value and your Winter Reserves feature is active, you regain hit points equal to your proficiency modifier. You don’t gain this benefit if you have 0 hit points.",
+                "Additionally, when you take a short rest, you regain the maximum number of hit points possible from any Hit Dice you spend."
+            ]
+        },
+        {
+            "name": "Wrathbearer",
+            "source": "Ar2",
+            "className": "Wizard",
+            "classSource": "PHB",
+            "page": 2,
+            "subclassShortName": "Hibernation",
+            "subclassSource": "Ar2",
+            "level": 14,
+            "header": 2,
+            "entries": [
+                "{@i 14th-level Order of Hibernation feature}",
+                "At 14th level, your ability to hold and stockpile has taught you how to keep only what you need, and to turn the rest into a surge of arcane force. Once per turn when you cast a spell, you can release a wave of energy using one or both of the following options:",
+                {
+                    "type": "list",
+                    "items": [
+                        "When you cast a spell, you can expend any number of wizard Hit Dice to push creatures away from you. Choose any number of creatures within 30 feet of you that you can see. Each creature must make a Strength saving throw against your spell save DC or be pushed a distance in feet equal to the rolled result of the Hit Dice expended.",
+                        "When you cast a spell, you can expend a spell slot to deal damage to creatures around you. Choose any number of creatures within 30 feet of you that you can see. Each creature must make a Constitution saving throw against your spell save DC, taking 1d8 force damage per level of the spell slot expended on a failed save, or half as much damage on a successful one."
+                    ]
+                }
+            ]
+        }
+    ]
+}
