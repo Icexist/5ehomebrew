@@ -1603,7 +1603,7 @@
                 "activation.type": "bonus",
                 "activation.cost": 1,
                 "uses.max": "@prof",
-                "uses.value": "@prof",
+                "uses.value": 1,
                 "uses.per": "lr",
                 "target.value": 8,
                 "target.type": "creature"
@@ -1701,7 +1701,7 @@
                 "activation.type": "special",
                 "actionType": "other",
                 "type.value": "race",
-                "uses.value": "@prof",
+                "uses.value": 1,
                 "uses.max": "@prof",
                 "uses.per": "lr"
             }
@@ -1743,7 +1743,7 @@
                 "activation.type": "bonus",
                 "actionType": "other",
                 "type.value": "race",
-                "uses.value": "@prof",
+                "uses.value": 1,
                 "uses.max": "@prof",
                 "uses.per": "sr",
                 "target.value": 8,
