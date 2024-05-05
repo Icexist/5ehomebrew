@@ -191,5 +191,29 @@
                 }
             ]
         }
+    ],
+    "foundrySubclassFeature": [
+        {
+            "name": "Restful Studies",
+            "source": "Ar2",
+            "className": "Wizard",
+            "classSource": "PHB",
+            "level": 2,
+            "subclassShortName": "Hibernation",
+            "subclassSource": "Ar2",
+            "effects": [
+                {
+                    "name": "Hit Die Increase",
+                    "transfer": true,
+                    "changes": [
+                        {
+                            "key": "data.attributes.hd",
+                            "mode": "ADD",
+                            "value": "+floor((level-2)/4)-floor(level/18)+1"
+                        }
+                    ]
+                }
+            ]
+        }
     ]
 }
