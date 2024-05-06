@@ -191,5 +191,22 @@
                 }
             ]
         }
+    ],
+    "foundrySubclassFeature": [
+        {
+            "name": "Restful Studies",
+            "source": "Ar2",
+            "className": "Wizard",
+            "classSource": "PHB",
+            "level": 2,
+            "subclassShortName": "Hibernation",
+            "subclassSource": "Ar2",
+            "system": {
+                "uses.max": "floor(((@details.level)-2)/4)-floor(@details.level/18)+1",
+                "uses.per": "lr",
+                "activation.type": "none",
+                "uses.value": 1
+            }
+        }
     ]
 }
